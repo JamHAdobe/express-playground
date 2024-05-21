@@ -1,7 +1,6 @@
 mountpoints:
   /:
-    url: https://adobe.sharepoint.com/:f:/r/sites/adobecom/Express/website
-
+    url: https://adobe.sharepoint.com/:f:/r/sites/USContentQAMilo/Shared%20Documents/express
 folders:
   /express/templates/: /express/templates/default
   /br/express/templates/: /br/express/templates/default
