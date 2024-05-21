@@ -1,0 +1,99 @@
+.banner,
+.banner.compact {
+  background-color: var(--color-info-accent);
+  padding: 80px 15px;
+  text-align: center;
+}
+
+.banner h1,
+.banner h2,
+.banner h3,
+.banner h4,
+.banner h5,
+.banner p {
+  text-align: center;
+}
+
+.banner > div {
+  max-width: var(--block-sm-max-width);
+  margin: auto;
+  padding: 0;
+}
+
+.banner.compact {
+  padding: 40px 15px;
+}
+
+.banner {
+  margin: 0 auto;
+  color: var(--color-white);
+}
+
+.banner.light {
+  color: var(--color-black);
+}
+
+.banner.compact p {
+  margin: 24px;
+}
+
+.banner.compact p.button-container {
+  margin-bottom: 0;
+}
+
+.banner.compact p.button-container ~ p {
+  margin-top: 0;
+}
+
+.banner h2,
+.banner h3 {
+  color: var(--color-white);
+}
+
+main .banner h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.banner.light h2,
+.banner.light h3 {
+  color: var(--color-black);
+}
+
+.banner a:any-link {
+  color: var(--color-white);
+}
+
+.banner.light a:any-link {
+  color: var(--color-black);
+}
+
+.banner .icon {
+  height: 72px;
+  width: 72px;
+}
+
+.banner.multi-button .button-container {
+  display: inline-block;
+}
+
+.banner p:last-of-type {
+  margin-bottom: 0;
+}
+
+@media (min-width: 900px) {
+  .banner {
+    padding-left: 56px;
+    padding-right: 56px;
+  }
+
+  .banner > div {
+    max-width: var(--block-md-max-width);
+  }
+}
+
+@media (min-width: 1200px) {
+  .banner > div {
+    max-width: var(--block-lg-max-width);
+  }
+}
